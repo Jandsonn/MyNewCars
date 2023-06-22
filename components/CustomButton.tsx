@@ -14,7 +14,7 @@ handleClick}: CustomButtonProps ) => {
     >
 
       <span className={`flex-1`}>
-        title
+        Explore Cars
 
       </span>
       
