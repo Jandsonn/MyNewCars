@@ -40,6 +40,21 @@ export const manufacturers = [
     "Toyota",
     "Volkswagen",
     "Volvo",
+    "Golf",
+    "Polo",
+    "Passat",
+    "Jetta",
+    "Tiguan",
+    "Touareg",
+    "Beetle",
+    "Arteon",
+    "T-Roc",
+    "Up!",
+    "Amarok",
+    "Caddy",
+    "Transporter",
+    "Crafter",
+    "CarJandão",
   ];
   
   export const yearsOfProduction = [

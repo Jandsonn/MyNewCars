@@ -13,6 +13,9 @@ export interface SearchManufacturerProps {
     setManufacturer: (manufacturer: string) => void;
 }
 
+export interface CarProps {
+    
+}
 
 // import { MouseEventHandler } from "react";
 
