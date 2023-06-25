@@ -8,6 +8,10 @@ export interface CustomButtonProps {
     btnType?: "button" | "submite";
 }
 
+export interface SearchManufacturerProps {
+    manufacturer: string;
+    setManufacturer: (manufacturer: string) => void;
+}
 
 
 // import { MouseEventHandler } from "react";

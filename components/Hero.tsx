@@ -16,29 +16,28 @@ const Hero = () => {
                     Find, book, or rent a car - quickly and easily!
                 </h1>
 
+
                 <p className='hero__subtitle'>
                     Stream Line your car rental
                     experience with our effortles booking process.
                 </p>
 
 
-
-        <CustomButton
-            title="Explorer Cars"
-            containerStyles="bg-primary-blue
+                <CustomButton
+                    title="Explorer Cars"
+                    containerStyles="bg-primary-blue
             text-white rounded-full mt-10"
-            handleClick={handleScroll}
-        />
+                    handleClick={handleScroll}
+                />
             </div>
 
             <div className="hero__image-container">
                 <div className="hero__image">
-                    <Image src="/hero.png" alt="hero" 
-                    fill className="object-container"/>
-                    
-                    <div className="hero__image-overlay "/>
-
+                    <Image src="/hero.png" alt="hero"
+                        fill className="object-container" />
                 </div>
+                
+                <div className="hero__image-overlay " />
             </div>
         </div>
     )
