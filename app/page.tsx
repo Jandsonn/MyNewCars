@@ -34,7 +34,7 @@ export default async function Home() {
                 <CarCard car={car} />
               ))}
             </div>
-            
+
           </section>
         ) : (
           <div className="home__error-container">
@@ -43,7 +43,7 @@ export default async function Home() {
           </div>
 
         )}
-
+ 
       </div>
     </main >
   )
